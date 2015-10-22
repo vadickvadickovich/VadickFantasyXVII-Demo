@@ -38,7 +38,7 @@ class Menu(object):
 				if (event.type == pygame.KEYDOWN) and (event.key == pygame.K_RETURN):
 					selected_sound.play()
 					
-					webbrowser.open('http://vadickproduction.comeze.com/dlc', new = 2)
+					webbrowser.open('http://vadickproduction.ru/dlc', new = 2)
 					
 					screen.blit(loading_screen, (0, 0))
 					screen.blit(loading_bar_empty, (103, 508))
